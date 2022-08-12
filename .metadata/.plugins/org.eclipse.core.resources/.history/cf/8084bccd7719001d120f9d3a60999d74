@@ -1,0 +1,16 @@
+@QAbatch01
+Feature: Social Media Ribbon
+
+  #Test Case: GCVA_SocialMediaRibbonFooter_01_TC001
+  #Description: To verify Social Media Ribbon: Instagram (Post-Login)
+  #Author: Divya
+  #Date: 2-sep-2021
+  @FooterSectionSuite
+  Scenario Outline: GCVA_SocialMediaRibbonFooter_01_TC001
+    Given User is on pre-login page
+    When user login with valid email address "<UN>" and password "<pwd>"
+    Then scroll down and verify Instagram link
+
+    Examples: 
+      | UN                        | pwd      |
+      | jonathan.thebault@bat.com | TEST1234 |

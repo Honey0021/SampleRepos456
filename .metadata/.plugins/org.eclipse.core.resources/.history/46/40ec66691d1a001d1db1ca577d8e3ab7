@@ -1,0 +1,5 @@
+Feature: Login screen
+
+  Background: 
+    Given launch the amazon url
+    And user click on signin link

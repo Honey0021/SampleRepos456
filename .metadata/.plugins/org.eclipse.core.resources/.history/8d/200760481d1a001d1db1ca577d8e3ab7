@@ -1,0 +1,15 @@
+package StepDefinationfile;
+
+public class stepdef_file1 {
+	
+	@Given("^User is on pre-login page$")
+	public void user_is_on_pre_login_page() throws Throwable {
+	
+
+	   // function.launchApplication();
+	    
+	    
+	}
+	
+
+}
